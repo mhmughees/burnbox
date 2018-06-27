@@ -1,4 +1,4 @@
-#BurnBox: Self-Revocable Encryption in a World Of Compelled Access
+# BurnBox: Self-Revocable Encryption in a World Of Compelled Access
 
 
 ##Overview
