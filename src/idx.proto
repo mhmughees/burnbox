@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+message File_Entry {
+
+    required int32 idx = 1;
+    required string name = 2;
+    required bytes recovery = 3;
+}
+
+message IdxList {
+    repeated File_Entry file_entry = 1;
+}
