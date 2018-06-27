@@ -13,7 +13,7 @@ The project requires following libraries:
 
 * [libfuse: A user space file system library](https://github.com/libfuse/libfuse)
 
-For MacOS install [osxfuse](https://osxfuse.github.io) and for ubuntu install 2.8.0 because recent versions of fuse are not compatible with the projects built on osxfuse. 
+For MacOS install [osxfuse](https://osxfuse.github.io). For ubuntu, grab  and compile libfuse version 2.8.0 from libfuse repo, because recent versions of fuse are not compatible with the API level 28 used in osxfuse. 
 
 *  [Cryptopp: For all cryptographic functions](https://www.cryptopp.com)
 
