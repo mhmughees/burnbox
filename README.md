@@ -6,6 +6,14 @@ This project is the prototype implementation of Burnbox given in the reference. 
 
 BurnBox is implemented as a userspace file system that is mounted on the underlying filesystem of the OS. It handles all the sensitive operations (key derivation, encrypted/ decryption) in memory and only forwards encrypted content to the underlying file system. 
 
+## Reference
+
+**BurnBox: Self-Revocable Encryption in a World Of Compelled Access**, Nirvan Tyagi, Muhammad Haris Mughees, Thomas Ristenpart, Ian Miers. In Proceedings of 27th USENIX Security Symposium 2018.
+
+
+
+
+
 ## Build Requirements
 The project can be build using cmake built system. Cmake can be installed from [here](https://cmake.org/install/).
 
